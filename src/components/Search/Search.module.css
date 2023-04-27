@@ -1,0 +1,27 @@
+.search_form form { display: flex; justify-content: space-between; }
+
+.search_form form input {
+    flex: 0 0 auto;
+    width: 48%;
+}
+
+.not_found { font-size: 42px; text-transform: uppercase; text-align: center; }
+
+.not_found i { color: var(--main-color); }
+
+
+@media (max-width:767px) {
+    
+    .not_found { font-size: 28px; }
+}
+
+@media (max-width:575px) {
+
+    .search_form form { flex-direction: column; }
+
+    .search_form form input { width: 100%;  }
+
+    .search_form form input:not(:last-of-type) { margin-bottom: 15px; }
+    
+    .not_found { font-size: 20px; }
+}

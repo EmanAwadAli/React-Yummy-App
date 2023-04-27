@@ -1,0 +1,82 @@
+.filter_meals { margin: 0 -15px; }
+
+.filter {
+    flex: 0 0 auto;
+    width: 250px;
+    padding: 0 15px;
+}
+
+.meals {
+    flex: 0 0 auto;
+    width: calc(100% - 250px);
+    padding: 0 15px;
+ }
+
+.title {
+    font-size: 24px; 
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+     color: var(--main-color);
+     border-bottom: 1px solid #888;
+}
+
+.title i { font-size: 22px; margin-right: 10px; }
+
+.filter_list li:not(:last-of-type) { margin-bottom: 10px; }
+
+.filter_list li a {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.filter_list li a i { font-size: 8px; margin-right: 8px; }
+
+.meals > div:last-child > div { width: 20%; }
+
+@media (max-width:1366px) {
+
+    .meals > div:last-child > div { width: 25%; }
+
+}
+
+@media (max-width:1199px) {
+
+    .meals > div:last-child > div { width: 33.333%; }
+}
+
+@media (max-width:991px) {
+
+    .filter_meals { margin: 0 -10px; }
+
+    .filter { width: 200px; padding: 0 10px; }
+    
+    .meals { width: calc(100% - 200px); padding: 0 10px; }
+    
+}
+
+
+@media (max-width:768px) {
+
+    .meals > div:last-child > div { width: 50%; }
+
+}
+
+@media (max-width:575px) {
+
+    .filter_meals  { flex-direction: column-reverse; }
+    
+    .filter, .meals { width: 100%; }
+
+    .meals { margin-bottom: 30px; }
+    
+}
+
+

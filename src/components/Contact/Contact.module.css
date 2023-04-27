@@ -1,0 +1,31 @@
+.contact_us {
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    text-align: center;
+}
+
+.title { font-size: 36px; font-weight: 600; color: var(--main-color);}
+
+.c_form { margin: auto; }
+
+.c_form input {
+    height: 65px;
+    border: 2px solid #ededed;
+}
+
+@media (max-width:767px) {
+
+    .contact_us { width: 100%; }
+
+    .c_form input { height: 55px; }
+    
+}
+
+
+@media (max-width:576px) {
+
+    .contact_us { width: 100%; }
+    
+
+}
