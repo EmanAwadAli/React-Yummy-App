@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import Loading from "./../Loading/Loading";
 import style from "./Categories.module.css";
-import { Helmet } from "react-helmet";
 
 export default function Categories() {
   const [categories, setCategories] = useState(null);
@@ -27,7 +27,7 @@ export default function Categories() {
         <div className="categories py-5">
           <div className="heading heading_lg">
             <h2 className="title">
-              <i class="fa-solid fa-list"></i> Categories
+              <i className="fa-solid fa-list"></i> Categories
             </h2>
           </div>
           <div className="row">
@@ -56,7 +56,7 @@ export default function Categories() {
                         .join(" ")}
                     </p>
                     <span className="rounded-3">
-                      Meals <i class="fa-solid fa-arrow-right"></i>
+                      Meals <i className="fa-solid fa-arrow-right"></i>
                     </span>
                   </div>
                 </Link>

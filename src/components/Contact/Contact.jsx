@@ -49,7 +49,7 @@ export default function Contact() {
       <div className={`${style.contact_us} py-5`}>
         <div className="heading heading_lg">
           <h2 className="title">
-            <i class="fa-solid fa-mobile-screen"></i>Contact <span>Us</span>
+            <i className="fa-solid fa-mobile-screen"></i>Contact <span>Us</span>
           </h2>
         </div>
         <form onSubmit={formik.handleSubmit} className={style.c_form}>

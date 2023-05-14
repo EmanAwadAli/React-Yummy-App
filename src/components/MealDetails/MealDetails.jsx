@@ -76,14 +76,16 @@ export default function MealDetails() {
               <div className={style.details}>
                 <div className={style.instructions}>
                   <h3 className={style.sub_title}>
-                    <i class="fa-regular fa-rectangle-list"></i> Instructions
+                    <i className="fa-regular fa-rectangle-list"></i>{" "}
+                    Instructions
                   </h3>
                   <p>{meal.strInstructions}</p>
                 </div>
                 {meal.ingredients && (
                   <div className={style.ingradients}>
                     <h3 className={style.sub_title}>
-                      <i class="fa-solid fa-whiskey-glass"></i> Ingradients :{" "}
+                      <i className="fa-solid fa-whiskey-glass"></i> Ingradients
+                      :{" "}
                     </h3>
                     {meal.ingredients?.map((ing) => (
                       <span key={ing} className="rounded-2">
@@ -95,7 +97,8 @@ export default function MealDetails() {
                 {meal.strTags && (
                   <div className={style.tags}>
                     <h3 className={style.sub_title}>
-                      <i class="fa-solid fa-tags fa-flip-horizontal"></i> Tags :{" "}
+                      <i className="fa-solid fa-tags fa-flip-horizontal"></i>{" "}
+                      Tags :{" "}
                     </h3>
                     {meal.strTags?.split(",").map((tag) => (
                       <span key={tag} className="rounded-2">
@@ -111,7 +114,7 @@ export default function MealDetails() {
                       {meal.strSource ? (
                         <li>
                           <Link to={meal.strSource} className="rounded-2">
-                            <i class="fa-solid fa-link"></i>
+                            <i className="fa-solid fa-link"></i>
                             Source
                           </Link>
                         </li>
@@ -124,7 +127,7 @@ export default function MealDetails() {
                             to={meal.strYoutube}
                             className={`${style.youtube} rounded-2`}
                           >
-                            <i class="fa-brands fa-youtube"></i>
+                            <i className="fa-brands fa-youtube"></i>
                             Youtube
                           </Link>
                         </li>

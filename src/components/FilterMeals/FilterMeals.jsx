@@ -31,7 +31,7 @@ export default function FilterMeals() {
         <div className={style.filter}>
           <div>
             <h3 className={style.title}>
-              <i class="fa-solid fa-list"></i>Categories
+              <i className="fa-solid fa-list"></i>Categories
             </h3>
             <ul className={`${style.filter_list} list-unstyled`}>
               {categories.map((category, index) => (
@@ -40,7 +40,7 @@ export default function FilterMeals() {
                     to={`category/${category.strCategory}`}
                     className="nav-link"
                   >
-                    <i class="fa-solid fa-circle"></i>
+                    <i className="fa-solid fa-circle"></i>
                     {category.strCategory}
                   </NavLink>
                 </li>
@@ -49,13 +49,13 @@ export default function FilterMeals() {
           </div>
           <div>
             <h3 className={style.title}>
-              <i class="fa-solid fa-earth-americas"></i>Areas
+              <i className="fa-solid fa-earth-americas"></i>Areas
             </h3>
             <ul className={`${style.filter_list} list-unstyled`}>
               {areas.slice(0, 10).map((area, index) => (
                 <li key={index}>
                   <NavLink to={`area/${area.strArea}`} className="nav-link">
-                    <i class="fa-solid fa-circle"></i>
+                    <i className="fa-solid fa-circle"></i>
                     {area.strArea}
                   </NavLink>
                 </li>
@@ -64,7 +64,7 @@ export default function FilterMeals() {
           </div>
           <div>
             <h3 className={style.title}>
-              <i class="fa-solid fa-utensils"></i>Ingredients
+              <i className="fa-solid fa-utensils"></i>Ingredients
             </h3>
             <ul className={`${style.filter_list} list-unstyled`}>
               {ingredients.slice(0, 10).map((ingredient, index) => (
@@ -73,7 +73,7 @@ export default function FilterMeals() {
                     to={`ingredient/${ingredient.strIngredient}`}
                     className="nav-link"
                   >
-                    <i class="fa-solid fa-circle"></i>
+                    <i className="fa-solid fa-circle"></i>
                     {ingredient.strIngredient}
                   </NavLink>
                 </li>

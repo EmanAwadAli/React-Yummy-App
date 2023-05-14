@@ -16,12 +16,12 @@ export default function SideBar({
         <ul className="navbar-nav m-0">
           <li className="nav-item">
             <NavLink className="nav-link" to="/" onClick={closeSideBar}>
-              <i class="fa-solid fa-house"></i> Home
+              <i className="fa-solid fa-house"></i> Home
             </NavLink>
           </li>
           <li className="nav-item">
             <NavLink className="nav-link" to="/search" onClick={closeSideBar}>
-              <i class="fa-solid fa-magnifying-glass"></i> Search
+              <i className="fa-solid fa-magnifying-glass"></i> Search
             </NavLink>
           </li>
           <li className="nav-item">
@@ -30,7 +30,7 @@ export default function SideBar({
               to="/filtermeals"
               onClick={closeSideBar}
             >
-              <i class="fa-solid fa-utensils"></i> Meals
+              <i className="fa-solid fa-utensils"></i> Meals
             </NavLink>
           </li>
           <li className="nav-item">
@@ -39,12 +39,12 @@ export default function SideBar({
               to="/categories"
               onClick={closeSideBar}
             >
-              <i class="fa-solid fa-list"></i> Categories
+              <i className="fa-solid fa-list"></i> Categories
             </NavLink>
           </li>
           <li className="nav-item">
             <NavLink className="nav-link" to="/contact" onClick={closeSideBar}>
-              <i class="fa-solid fa-paper-plane"></i> Contact Us
+              <i className="fa-solid fa-paper-plane"></i> Contact Us
             </NavLink>
           </li>
         </ul>

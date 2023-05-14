@@ -5,11 +5,11 @@ import Home from "./components/Home/Home";
 import Search from "./components/Search/Search";
 import FilterMeals from "./components/FilterMeals/FilterMeals";
 import CommonMeals from "./components/CommonMeals/CommonMeals";
-import CategoryMeals from "./components/CategoryMeals/CategoryMeals";
 import AreaMeals from "./components/AreaMeals/AreaMeals";
 import IngredientMeals from "./components/IngredientMeals/IngredientMeals";
 import MealDetails from "./components/MealDetails/MealDetails";
 import Categories from "./components/Categories/Categories";
+import CategoryMeals from "./components/CategoryMeals/CategoryMeals";
 import Contact from "./components/Contact/Contact";
 import NotFound from "./components/NotFound/NotFound";
 

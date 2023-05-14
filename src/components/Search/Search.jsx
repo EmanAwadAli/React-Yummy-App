@@ -57,7 +57,7 @@ export default function Search() {
         </div>
       ) : (
         <h2 className={style.not_found}>
-          <i class="fa-solid fa-magnifying-glass"></i> No Meals Found
+          <i className="fa-solid fa-magnifying-glass"></i> No Meals Found
         </h2>
       )}
     </>
