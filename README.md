@@ -1,6 +1,6 @@
 # 😋 Yummy App
 ## 📌 Overview
-In this project, I created is a web application that displays a set of recipes with its related details.
+In this project, I created a web application that displays a set of recipes and its related details.
 
 ## 📥 Installation
 
@@ -32,4 +32,4 @@ npm run dev
 
 ![image](https://github.com/EmanAwadAli/GameOver_App/assets/54704537/416dada8-127b-46f4-91c8-ec7691e2e2f2)
 
-###### 👉 Deployment Link : yummy-app.vercel.app
+###### 👉 Deployment Link : [yummy-app.vercel.app](https://yummy-app.vercel.app/)
